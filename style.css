@@ -58,7 +58,15 @@ text{
     justify-content: center;
     background-color: lightblue
 }
-
+.nav {
+    border: 1px solid #300303;
+    border-radius: 3px;
+    border: 1px solid #0f9e54;
+    box-shadow: 0 0.2em 0 0.05em #170202;
+    border-bottom-color: #1a70cb;
+    /* margin-left: 4px; */
+    
+  }
 .card-body{
     border:1px solid blue;
     border-radius: 5px;

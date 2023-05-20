@@ -55,7 +55,7 @@ async function books() {
               row.innerHTML += `
                 <div class="col-md-4" >
                     <div class="card border-primary mb-3" style="max-width: 28rem ;height:420px">
-                    <div class="card-header">${bookName}</div>
+                    <div class="card-header nav">${bookName}</div>
                     <div class="card-body border border-primary rounded" id="${'card'+parseInt(index+1)}">
                         <p class="card-text"><b>Author</b>: <span>${author}</span></p>
                         <p class="card-text"><b>ISBN:</b> <span>${isbn}</span></p>
@@ -102,7 +102,7 @@ function createDom(){
     input.id = "search";
     input.placeholder = "Enter text to search"
    
-    bgColor = []
+
     input.addEventListener("input",()=>{                        //add event listener for search field
         let container = document.querySelector('.container')   
     let value = input.value.toLowerCase(); //convert input value to lowercase
